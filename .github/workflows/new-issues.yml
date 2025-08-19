@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   label-new-issues:
-    runs-on: ubuntu-latest
+    runs-on:iPhone
     steps:
       - name: initial labelling
         uses: andymckay/labeler@3a4296e9dcdf9576b0456050db78cfd34853f260 # master
